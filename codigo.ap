@@ -1,9 +1,11 @@
 #a2 Ap.asigna 3
 #b2 Ap.asigna 4
-mola
-Ap.si (#b2 Ap.sonigual #a2) => 
-    Ap.escriba("El mayor es" Ap.suma $b2)
-Ap.no =>
-        Ap.escriba("El mayor es" Ap.suma $a2)
-    <=
-<=
+
+mama
+
+    Ap.si (#b2 Ap.esigual #a2) @% 
+        Ap.escriba("El mayor es" Ap.suma #b2)
+    Ap.no@%
+        Ap.escriba("El mayor es" Ap.suma #a2) 
+        %@
+    %@
