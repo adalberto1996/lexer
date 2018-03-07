@@ -36,6 +36,6 @@ class Analizador:
                     print("Error en la linea", invalido['linea'], " [",invalido['palabra'],"]")
                    
             else:
-                print("No se encontró ningún error léxico")
+                print("No se encontró ningún error léxico")     
         else:
             print("Error en la apertura del archivo")
